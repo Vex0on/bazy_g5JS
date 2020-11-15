@@ -1,0 +1,33 @@
+ZADANIE
+DELETE FROM postac WHERE wiek='172';
+DELETE FROM postac WHERE wiek='178';
+
+ALTER TABLE postac FOREIGN KEY postac_ibfk_1;
+ALTER TABLE postac MODIFY id_postaci int;
+ALTER TABLE postac DROP PRIMARY KEY;
+
+ZADANIE 2
+ALTER TABLE postac ADD COLUMN pesel varchar(11) FIRST;
+select from * postac;
+
+UPDATE postac SET pesel=42014521563 WHERE nazwa='Bjorn';
+UPDATE postac SET pesel=32014521563 WHERE nazwa='Drozd';
+UPDATE postac SET pesel=22014521563 WHERE nazwa='Tesciowa';
+UPDATE postac SET pesel=12014521563 WHERE nazwa='Bjorg';
+UPDATE postac SET pesel=52014521563 WHERE nazwa='Freda';
+UPDATE postac SET pesel=62014521563 WHERE nazwa='Gerd';
+select from * postac;
+ALTER TABLE postac ADD PRIMARY KEY(pesel);
+b)
+
+ALTER TABLE postac MODIFY rodzaj enum('wiking','ptak','kobieta','syrena');
+
+c)
+INSERT INTO postac values('72014521563','7','Gertruda Nieszczera','syrena','1750-11-13','270');
+
+ZADANIE 3
+a) 
+SELECT * from postac WHERE nazwa LIKE '%a%';
+UPDATE postac SET statek='Drakkar' WHERE nazwa LIKE '%a%';
+b)
+UPDATE statek SET max_ladownosc=max_ladownosc*0.7 WHERE data_wodowania between'1900-12-31' and '2001-01-01';
