@@ -12,8 +12,6 @@ SELECT * FROM zasob WHERE waga < 5 and waga > 2;
 SELECT * FROM kreatura WHERE nazwa LIKE '%or%' AND udzwig < 30 AND udzwig > 70;
 
 ZADANIE 3
-sortowanie + LIMIT
-
 SELECT * FROM zasob WHERE MONTH(dataPozyskania) = 7 or MONTH(dataPozyskania) = 8;
 SELECT * FROM zasob ORDER BY waga asc;
 SELECT * FROM kreatura ORDER BY dataUr asc LIMIT 5;
