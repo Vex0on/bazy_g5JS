@@ -16,4 +16,15 @@ SELECT * FROM zasob WHERE MONTH(dataPozyskania) = 7 or MONTH(dataPozyskania) = 8
 SELECT * FROM zasob ORDER BY waga asc;
 SELECT * FROM kreatura ORDER BY dataUr asc LIMIT 5;
 
+Część 2:
+ZADANIE 4
+SELECT DISTINCT rodzaj FROM kreatura;
+SELECT CONCAT(nazwa, ' - ',rodzaj) FROM kreatura WHERE rodzaj LIKE 'wi%';
 
+SELECT nazwa, waga*ilosc FROM zasob 
+WHERE dataPozyskania BETWEEN '2000-01-01' AND '2007-12-31';
+
+ZADANIE 5
+
+SELECT concat(nazwa,' ', waga*ilosc*0.7,'odpad to',waga*ilosc*0.3) FROM zasob WHERE rodzaj ='jedzenie';
+SELECT * FROM zasob WHERE rodzaj IS NULL;
