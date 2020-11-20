@@ -1,0 +1,21 @@
+ZADANIE 1
+CREATE TABLE kreatura SELECT * FROM wikingowie.kreatura;
+CREATE TABLE zasob SELECT * FROM wikingowie.zasob;
+CREATE TABLE ekwipunek SELECT * FROM wikingowie.ekwipunek;
+SELECT * FROM zasob;
+SELECT * FROM zasob WHERE rodzaj='jedzenie';
+SELECT idZasobu, ilosc FROM ekwipunek WHERE idKreatury IN (1,3,5);
+
+ZADANIE 2
+SELECT * FROM kreatura WHERE rodzaj != 'wiedzma' AND udzwig >= '50';
+SELECT * FROM zasob WHERE waga < 5 and waga > 2;
+SELECT * FROM kreatura WHERE nazwa LIKE '%or%' AND udzwig < 30 AND udzwig > 70;
+
+ZADANIE 3
+sortowanie + LIMIT
+
+SELECT * FROM zasob WHERE MONTH(dataPozyskania) = 7 or MONTH(dataPozyskania) = 8;
+SELECT * FROM zasob ORDER BY waga asc;
+SELECT * FROM kreatura ORDER BY dataUr asc LIMIT 5;
+
+
