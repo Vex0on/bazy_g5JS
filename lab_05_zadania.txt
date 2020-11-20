@@ -28,15 +28,3 @@ ZADANIE 5
 SELECT concat(nazwa,' ', waga*ilosc*0.7,'odpad to',waga*ilosc*0.3) FROM zasob WHERE rodzaj ='jedzenie';
 SELECT * FROM zasob WHERE rodzaj IS NULL;
 SELECT distinct nazwa, rodzaj FROM zasob WHERE nazwa like 'Ba%' OR nazwa LIKE '%os' ORDER BY nazwa ASC;
-
-ZADANIE 6
-SELECT avg(udzwig) sredni_udzwig FROM kreatura;
-SELECT rodzaj, count(*), AVG(waga) FROM kreatura GROUP BY rodzaj;
-SELECT rodzaj, AVG(2020-year(dataUr)) FROM kreatura GROUP BY rodzaj;
-
-ZADANIE 7
-SELECT rodzaj, count(distinct (nazwa)) 
-(SELECT nazwa, sum(waga*ilosc), sum(ilosc) FROM zasob GROUP BY nazwa ORDER BY nazwa;) - notatka
-SELECT nazwa, AVG(waga) as 'waga rzeczy' from zasob where ilosc>=4 group by nazwa HAVING sum(waga)>10;
-SELECT rodzaj, count(distinct (nazwa)) as liczba from zasob group by rodzaj having liczba>1;
-
