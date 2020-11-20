@@ -7,9 +7,7 @@ b)
 CREATE TABLE marynarz LIKE postac;
 INSERT INTO marynarz SELECT * FROM postac
 WHERE statek IS NOT NULL;
-//LUB
 CREATE TABLE marynarz2 SELECT * FROM postac
-WHERE statek IS NOT NULL; -> show CREATE TABLE marynarz2
 
 Zadanie 5
 a) UPDATE postac SET nazwa_statku=default;
