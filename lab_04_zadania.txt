@@ -31,3 +31,25 @@ SELECT * from postac WHERE nazwa LIKE '%a%';
 UPDATE postac SET statek='Drakkar' WHERE nazwa LIKE '%a%';
 b)
 UPDATE statek SET max_ladownosc=max_ladownosc*0.7 WHERE data_wodowania between'1900-12-31' and '2001-01-01';
+
+Zadanie 4
+a)
+ALTER TABLE postac MODIFY rodzaj enum('wiking','kobieta','ptak','syrena','waz');
+INSERT INTO postac values('82014521563',default,'4','Loko','waz','1749-11-16,'271',default);
+
+b)
+CREATE TABLE marynarz LIKE postac;
+INSERT INTO marynarz SELECT * FROM postac
+WHERE statek IS NOT NULL;
+CREATE TABLE marynarz2 SELECT * FROM postac
+
+Zadanie 5
+a) UPDATE postac SET nazwa_statku=default;
+b) DELETE FROM postac where id_postaci='6';
+c) ALTER TABLE postac DROP nazwa_statku;
+DELETE FROM statek WHERE nazwa_statku='Drakkar';
+DELETE FROM statek WHERE nazwa_statku='Snekkar';
+d) DROP TABLE  statek;
+e) CREATE TABLE zwierz(id INT PRIMARY KEY AUTO_INCREMENT, nazwa INT, wiek VARCHAR(20));
+ALTER TABLE zwierz MODIFY nazwa VARCHAR(20);
+f) INSERT INTO zwierz(nazwa,wiek) select nazwa, wiek from postac where rodzaj='ptak' and rodzaj='waz';
