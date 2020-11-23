@@ -1,0 +1,31 @@
+ZADANIE 1
+SELECT avg(udzwig) sredni_udzwig FROM kreatura;
+SELECT rodzaj, count(*), AVG(waga) FROM kreatura GROUP BY rodzaj;
+SELECT rodzaj, AVG(2020-year(dataUr)) FROM kreatura GROUP BY rodzaj;
+
+ZADANIE 2
+SELECT rodzaj, count(distinct (nazwa)) 
+(SELECT nazwa, sum(waga*ilosc), sum(ilosc) FROM zasob GROUP BY nazwa ORDER BY nazwa;) - notatka
+SELECT nazwa, AVG(waga) as 'waga rzeczy' from zasob where ilosc>=4 group by nazwa HAVING sum(waga)>10;
+SELECT rodzaj, count(distinct (nazwa)) as liczba from zasob group by rodzaj having liczba>1;
+
+ZADANIE 3 (do dokończenia)
+SELECT nazwa, SUM(ilosc) FROM kreatura k, ekwipunek e where k.idKreatury=e.idKreatury group by nazwa;
+
+3. 
+Tym sprawdzam jakie kreatury mają pusty ekwipunek -
+k.idKreatury, k.nazwa, e.idKreatury FROM kreatura k LEFT JOIN ekwipunek e ON k.idKreatury=e.idKreatury WHERE e.idKreatury is NULL;
+
+SELECT k.idKreatury, k.nazwa from kreatura k 
+WHERE k.idKreatury not 
+IN(SELECT idKreatury FROM ekwipunek WHERE idKreatury IS NOT NULL);
+
+ZADANIE 4
+SELECT * FROM zasob z, kreatura NATURAL JOIN ekwipunek
+WHERE kreatura.rodzaj='wiking' AND YEAR(kreatura.dataUr) 
+BETWEEN 1670 AND 1679 and z.idZasobu=ekwipunek.idZasobu;
+
+SELECT k.nazwa FROM kreatura k LEFT JOIN ekwipunek e on k.idKreatury 
+INNER JOIN zasob z on e.idZasobu=z.idZasobu 
+WHERE z.rodzaj='jedzenie' ORDER BY dataUR DESC LIMIT 5;
+
