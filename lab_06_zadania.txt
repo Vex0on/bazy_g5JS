@@ -28,4 +28,15 @@ BETWEEN 1670 AND 1679 and z.idZasobu=ekwipunek.idZasobu;
 SELECT k.nazwa FROM kreatura k LEFT JOIN ekwipunek e on k.idKreatury 
 INNER JOIN zasob z on e.idZasobu=z.idZasobu 
 WHERE z.rodzaj='jedzenie' ORDER BY dataUR DESC LIMIT 5;
+SELECT k.nazwa, k2.nazwa FROM kreatura k, kreatura k2 where k.idKreatury=k2.idKreatury+5;
 
+ZADANIE 5
+SELECT k.rodzaj,AVG(z.waga) FROM kreatura k,ekwipunek e, zasob z 
+WHERE k.idKreatury=e.idKreatury AND e.idZasobu=z.idZasobu 
+AND k.rodzaj!='malpa' AND k.rodzaj!='waz'GROUP BY k.rodzaj 
+HAVING SUM(e.ilosc)<30;
+
+SELECT DISTINCT k.rodzaj,
+(SELECT CONCAT(k2.nazwa, " - " , k2.dataUr) FROM kreatura k2 WHERE k.rodzaj=k2.rodzaj ORDER BY k2.dataUr LIMIT 1) AS najstarsze,
+(SELECT CONCAT(k2.nazwa, " - " , k2.dataUr) FROM kreatura k2 WHERE k.rodzaj=k2.rodzaj ORDER BY k2.dataUr DESC LIMIT 1) AS najmlodsze
+FROM kreatura k;
