@@ -18,8 +18,8 @@ Aktualizuje HUD, Pokazuje dokładniejsze statystyki gracza jak dokładna ilość
 
 ## Dodatkowe mody klienckie:
 
-[Admin Scoreboard+](https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114)
-zyx.
+[Admin Scoreboard+](https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114)  
+Daje łatwy dostęp do wielu komend dla admina serwera po wciśnięciu TAB.
 
-[50 Saveslots](https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)
-yxz.
+[50 Saveslots](https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)  
+Umożliwia stworzenie 50 światów
