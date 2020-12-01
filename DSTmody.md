@@ -10,16 +10,16 @@ Minimapa jest w pełni funkcjonalna, można ją zbliżyć lub oddalić używają
 [Polish Wiki - Language Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=763014862)
 Polska paczka językowa. Większość słów jest przetłumaczona :) .
 
-[Item Info] - https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info
+[Item Info] (https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)
 def.
 
-[Combined Status] - https://steamcommunity.com/sharedfiles/filedetails/?id=376333686
+[Combined Status] (https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
 xyz.
 
 ## Dodatkowe mody klienckie:
 
-[Admin Scoreboard+] - https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114
+[Admin Scoreboard+] (https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114)
 zyx.
 
-[50 Saveslots] - https://steamcommunity.com/sharedfiles/filedetails/?id=369845558
+[50 Saveslots] (https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)
 yxz.
