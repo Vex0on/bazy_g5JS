@@ -8,18 +8,18 @@ Aby zainstalować moda, wciśnij w link do moda w warsztacie steam i wciśnij "S
 Minimapa jest w pełni funkcjonalna, można ją zbliżyć lub oddalić używając scrolla) i może być przesuwana za pomocą wciśnięcia i przesunięcia.
 
 [Polish Wiki - Language Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=763014862)
-Polska paczka językowa. Większość słów jest przetłumaczona :) .
+Polska paczka językowa. Większość słów jest przetłumaczona.
 
-[Item Info] (https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)
-def.
+[Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)
+blablablablablbalbalbalbalbalbalb
 
-[Combined Status] (https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
+[Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
 xyz.
 
 ## Dodatkowe mody klienckie:
 
-[Admin Scoreboard+] (https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114)
+[Admin Scoreboard+](https://steamcommunity.com/sharedfiles/filedetails/?id=1290774114)
 zyx.
 
-[50 Saveslots] (https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)
+[50 Saveslots](https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)
 yxz.
