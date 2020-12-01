@@ -8,7 +8,7 @@ Aby zainstalować moda, wciśnij w link do moda w warsztacie steam i wciśnij "S
 Minimapa jest w pełni funkcjonalna, można ją zbliżyć lub oddalić używając scrolla) i może być przesuwana za pomocą wciśnięcia i przesunięcia.
 
 [Polish Wiki - Language Pack] (https://steamcommunity.com/sharedfiles/filedetails/?id=763014862)
-abc.
+Polska paczka językowa. Większość słów jest przetłumaczona :) .
 
 [Item Info] - https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info
 def.
