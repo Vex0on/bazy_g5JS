@@ -11,10 +11,10 @@ Minimapa jest w pełni funkcjonalna, można ją zbliżyć lub oddalić używają
 Polska paczka językowa. Większość słów jest przetłumaczona.
 
 [Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)
-blablablablablbalbalbalbalbalbalb
+Pokazuje wartości jedzenia, wytrzymałość narzędzi i statystki itp.
 
 [Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
-xyz.
+Aktualizuje HUD, Pokazuje dokładniejsze statystyki gracza jak dokładna ilość HP, głodu czy sanity, wilgoć i temperatura oraz pokazuje dokładną ilość dni i czas do końca danej pory roku.
 
 ## Dodatkowe mody klienckie:
 
