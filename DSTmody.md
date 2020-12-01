@@ -7,13 +7,13 @@ Aby zainstalować moda, wciśnij w link do moda w warsztacie steam i wciśnij "S
 [Minimap HUD](http://steamcommunity.com/sharedfiles/filedetails/?id=345692228)  
 Minimapa jest w pełni funkcjonalna, można ją zbliżyć lub oddalić używając scrolla) i może być przesuwana za pomocą wciśnięcia i przesunięcia.
 
-[Polish Wiki - Language Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=763014862)
+[Polish Wiki - Language Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=763014862)	
 Polska paczka językowa. Większość słów jest przetłumaczona.
 
-[Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)
+[Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1901927445&searchtext=item+info)	
 Pokazuje wartości jedzenia, wytrzymałość narzędzi i statystki itp.
 
-[Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
+[Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)	
 Aktualizuje HUD, Pokazuje dokładniejsze statystyki gracza jak dokładna ilość HP, głodu czy sanity, wilgoć i temperatura oraz pokazuje dokładną ilość dni i czas do końca danej pory roku.
 
 ## Dodatkowe mody klienckie:
