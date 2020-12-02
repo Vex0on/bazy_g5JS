@@ -22,4 +22,12 @@ Aktualizuje HUD, Pokazuje dokładniejsze statystyki gracza jak dokładna ilość
 Daje łatwy dostęp do wielu komend dla admina serwera po wciśnięciu TAB.
 
 [50 Saveslots](https://steamcommunity.com/sharedfiles/filedetails/?id=369845558)  
-Umożliwia stworzenie 50 światów
+Umożliwia stworzenie 50 światów.
+
+## Podstawowe mody serwerowe:
+
+[Wormhole Marks](https://steamcommunity.com/sharedfiles/filedetails/?id=362175979)
+Zmienia na mapie ikony wormholi i ustawia taki sam kolor dla pary wormholi.
+
+[Storeroom](https://steamcommunity.com/sharedfiles/filedetails/?id=623749604)
+Dodaje magazyn, który można postawić i jest w nim 80/60/40/20 miejsc na przedmioty. (zależnie od ustawień)
